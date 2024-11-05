@@ -1,0 +1,190 @@
+{
+  "id": "6754c09f-69c7-4349-be8e-5fb97a92df18",
+  "name": "order.complete - context: ongoing-order",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "ongoing-order"
+  ],
+  "contexts": [
+    "ongoing-order"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Awesome. Your order is placed. Here is your order id#",
+            "Stay cool, You hot food will be arriving soon, Your order id is#"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "no thanks",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d83044f5-aa20-4b92-842e-5dbe02eb1d27",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "enough",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0a2e36df-e708-4921-ae49-c906bcec08e8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "that's it",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d3f2c227-f142-4258-9d14-0f1c85a4b719",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "that okay",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a8605642-bf9c-4f98-95ae-5466d29f1470",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "thats it",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "caef08a7-fc37-49b0-97e1-ce648cdd26c7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "bye",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e1fc7585-4123-459f-8658-86ba481b735d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ok",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d17addd2-8a19-44c5-b617-d8e9f9fd9ec1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "okay",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "07401863-0c04-4a4c-ae16-fb87f5e47c55",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "done",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "13058fd9-3300-4e79-a469-6c920f5020a9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "no thank you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "28b5eebb-51a3-4bac-a551-59501d720e91",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "thank you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "10992dee-4cd7-4d20-ba57-bb1710c69354",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Place an order.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e279f0e6-5fc8-435c-9031-f1f998fe315a",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,83 @@
+{
+  "id": "aa9e01b5-89e8-4d1a-8ef6-8f7a38e7f28d",
+  "name": "new.order",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ongoing-order",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Okay, Starting a new order: You can say things like: \"I want 2 pizza and 1 lassi\".",
+            "Starting new order. Please Specify food items and quantities. Example: 1 Pizza and 2 mango lassi."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "add new order",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "534dfc02-eeb2-44ca-b713-712ef052cb35",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "new order",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b96d3e53-dddf-4427-a9d5-08ab754c36ef",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "place a new order",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "6fb9bc3d-c30e-42a1-be87-372fd84215c8",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

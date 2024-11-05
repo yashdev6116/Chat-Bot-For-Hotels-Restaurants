@@ -1,0 +1,96 @@
+{
+  "id": "c58d1717-066f-4bd0-a498-57993b5f9f8d",
+  "name": "track.order",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ongoing-order",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "What is the tracking ID",
+            "Sure, Please enter your order ID",
+            "Sure, What's your order id?"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "track a order",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6ed75e1d-2dfe-435b-bbd2-979ba33a8c1e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where is my order",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8b846391-5944-4e39-bba1-ee4f5c4838cc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "track my order",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c32a7493-6901-457f-982b-ef7468dc61f2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "track order",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "63c304b6-6a1a-4984-84e5-2253a4114694",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
